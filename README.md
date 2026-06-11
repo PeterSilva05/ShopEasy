@@ -1,174 +1,111 @@
-# 🛒 ShopEasy - Sistema de E-Commerce
+# 🛒 ShopEasy – Projeto de Software para Plataforma de E-Commerce
 
 ## 📖 Sobre o Projeto
 
-O **ShopEasy** é uma plataforma completa de comércio eletrônico desenvolvida como projeto acadêmico da disciplina **Projeto de Software** da **PUC Minas**.
+O **ShopEasy** é um projeto acadêmico desenvolvido na disciplina **Projeto de Software** da **PUC Minas**, com o objetivo de realizar a análise, modelagem e especificação completa de uma plataforma de comércio eletrônico.
 
-O sistema foi projetado para oferecer uma experiência moderna de compra online, permitindo que clientes pesquisem produtos, realizem compras seguras, acompanhem pedidos em tempo real e avaliem produtos adquiridos. Além disso, a plataforma disponibiliza funcionalidades administrativas para gestão de catálogo, pedidos, estoque e relatórios gerenciais.
+O trabalho contempla todas as etapas de projeto de software, incluindo levantamento de requisitos, modelagem UML, definição da arquitetura, modelagem de banco de dados e documentação técnica necessária para uma futura implementação do sistema.
 
----
-
-## 🎯 Objetivos
-
-* Centralizar a experiência de compra online.
-* Facilitar o gerenciamento de produtos e estoque.
-* Fornecer pagamentos seguros.
-* Disponibilizar rastreamento de pedidos.
-* Garantir escalabilidade e alta disponibilidade.
+**Importante:** Este projeto não possui implementação de software. O foco está na elaboração dos artefatos de análise e projeto, seguindo as boas práticas de Engenharia de Software.
 
 ---
 
-## 🏗️ Arquitetura
+## 🎯 Objetivo
 
-O projeto utiliza uma arquitetura em camadas (Layered Architecture) combinada com o padrão MVC no backend e arquitetura baseada em componentes no frontend. A comunicação entre as camadas ocorre através de APIs REST.
-
-### Camadas
-
-* Frontend
-* Backend
-* Banco de Dados
-* Cache
-* Mensageria
-* Serviços Externos
+Desenvolver a documentação completa de um sistema de e-commerce capaz de atender clientes, administradores e fornecedores, fornecendo uma base sólida para futuras etapas de desenvolvimento.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 📋 Escopo do Sistema
 
-### Frontend
+O sistema proposto permite:
 
-* React 18
-* TypeScript
-* Redux Toolkit
-
-### Backend
-
-* Java 17
-* Spring Boot 3
-* Spring Security
-* JWT
-
-### Banco de Dados
-
-* PostgreSQL 15
-
-### Cache
-
-* Redis
-
-### Mensageria
-
-* RabbitMQ
-
-### Armazenamento
-
-* MinIO / AWS S3
-
-### Pagamentos
-
-* Stripe
-
-### Infraestrutura
-
-* AWS ECS
-* AWS RDS
-* AWS ElastiCache
-* CloudFront
+* Cadastro e autenticação de usuários.
+* Pesquisa e visualização de produtos.
+* Gerenciamento de carrinho de compras.
+* Finalização de pedidos.
+* Processamento de pagamentos.
+* Rastreamento de entregas.
+* Avaliação de produtos.
+* Controle de estoque.
+* Geração de relatórios administrativos.
 
 ---
 
-## 👥 Perfis de Usuário
+## 🏗️ Arquitetura Definida
 
-### Cliente
+Durante o projeto foi especificada uma arquitetura composta por:
 
-* Cadastro e login
-* Pesquisa de produtos
-* Carrinho de compras
-* Finalização de pedidos
-* Rastreamento
-* Avaliações
+* Frontend Web
+* Backend REST API
+* Banco de Dados PostgreSQL
+* Cache Redis
+* Mensageria RabbitMQ
+* Integração com Stripe
+* Integração com serviços de rastreamento
+* Infraestrutura baseada em AWS
 
-### Administrador
-
-* Gestão de produtos
-* Gestão de pedidos
-* Relatórios
-* Administração da plataforma
-
-### Fornecedor
-
-* Cadastro de produtos
-* Atualização de estoque
-* Acompanhamento de vendas
+Toda a arquitetura foi documentada e modelada para suportar escalabilidade, disponibilidade e segurança.
 
 ---
 
-## 📌 Principais Funcionalidades
+## 📊 Artefatos Desenvolvidos
 
-✅ Cadastro e autenticação de usuários
+### Requisitos
 
-✅ Pesquisa de produtos com filtros
+* Descrição de atores
+* Casos de uso
+* Histórias de usuário
+* Contratos de operação
 
-✅ Carrinho de compras
-
-✅ Integração com Stripe
-
-✅ Rastreamento de pedidos
-
-✅ Avaliação de produtos
-
-✅ Gestão de estoque
-
-✅ Painel administrativo
-
-✅ Relatórios gerenciais
-
----
-
-## 📊 Diagramas Desenvolvidos
-
-O projeto contempla:
+### Modelagem UML
 
 * Diagrama de Casos de Uso
 * Diagramas de Sequência
 * Diagramas de Comunicação
+* Diagrama de Classes
 * Diagrama de Componentes
 * Diagrama de Implantação
-* Diagrama de Classes
 * Diagramas de Estado
-* Diagrama Entidade-Relacionamento (DER)
 
-Todos os diagramas foram desenvolvidos utilizando **PlantUML**.
+### Banco de Dados
 
----
+* Modelo Entidade-Relacionamento (DER)
+* Estratégia de mapeamento objeto-relacional
+* Scripts DDL PostgreSQL
 
-## 🗄️ Banco de Dados
+### Arquitetura
 
-O banco de dados foi modelado utilizando PostgreSQL e contempla as principais entidades:
-
-* Usuário
-* Produto
-* Categoria
-* Carrinho
-* Pedido
-* Pagamento
-* Avaliação
-
-Além da modelagem, o projeto inclui scripts DDL completos para criação das tabelas e relacionamentos.
+* Arquitetura em Camadas (Layered Architecture)
+* MVC
+* Modelo C4 (Nível de Contêiner)
 
 ---
 
-## 👨‍💻 Autor
+## 🛠️ Ferramentas Utilizadas
+
+* PlantUML
+* PostgreSQL
+* Modelagem UML
+* Engenharia de Software
+* Documentação Técnica
+
+---
+
+## 👨‍🎓 Autor
 
 **Pedro Arthur Oliveira Silva**
 
 Graduando em Engenharia de Software – PUC Minas
 
-* GitHub: https://github.com/PeterSilva05
-* LinkedIn: https://www.linkedin.com/in/pedro-arthur-oliveira-silva-6888aa293
+GitHub: https://github.com/PeterSilva05
+
+LinkedIn: https://www.linkedin.com/in/pedro-arthur-oliveira-silva-6888aa293
 
 ---
 
-## 📚 Projeto Acadêmico
+## 📚 Disciplina
 
-Projeto desenvolvido para fins acadêmicos na disciplina **Projeto de Software** da **Pontifícia Universidade Católica de Minas Gerais (PUC Minas)**.
+Projeto desenvolvido para a disciplina **Projeto de Software** da **Pontifícia Universidade Católica de Minas Gerais (PUC Minas)**.
+
+**Ano:** 2025
